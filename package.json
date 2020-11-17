@@ -25,6 +25,7 @@
   "homepage": "https://github.com/iamfiasco/musu#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "mongoose": "^5.10.15",
     "node-id3": "^0.2.1"
   }
 }

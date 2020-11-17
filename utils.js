@@ -92,9 +92,16 @@ function filterTags(tags){
 //}).then(console.log)
 
 
+//(async function main(){
+//	const musics = await crawl("/home/oem/drawer/tdownload/music/A Perfect Circle - Eat The Elephant (2018) 320/")
+//	const tags = await getTags(musics[0])
+//	console.log(filterTags(tags))
+//}())
 
-(async function main(){
-	const musics = await crawl("/home/oem/drawer/tdownload/music/A Perfect Circle - Eat The Elephant (2018) 320/")
-	const tags = await getTags(musics[0])
-	console.log(filterTags(tags))
-}())
+module.exports = {
+	filterTags: filterTags,
+	crawl: crawl,
+	getTags: getTags
+}
+
+
