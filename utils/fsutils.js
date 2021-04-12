@@ -48,4 +48,8 @@ module.exports = {
   fsCrawl
 }
 
-crawl(process.env.MPATH).then(filterExts).then(console.log).catch(console.error)
+function main(){
+  crawl(process.env.MPATH).then(filterExts).then(console.log).catch(console.error)
+}
+
+main()
