@@ -1,0 +1,29 @@
+{
+  "name": "musu",
+  "version": "1.0.0",
+  "description": "music playing utility written in js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamfiasco/musu.git"
+  },
+  "keywords": [
+    "music",
+    "app"
+  ],
+  "author": "Nikhil Surya Mukhi iamfiascoiv@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamfiasco/musu/issues"
+  },
+  "homepage": "https://github.com/iamfiasco/musu#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3",
+    "pug": "^3.0.2"
+  }
+}
